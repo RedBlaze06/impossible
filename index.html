@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LE BOUTON DE MERDE</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="wrap">
+    <header>
+      <div class="logo">LE BOUTON <span>DE MERDE</span></div>
+      <div class="tag">UN JEU QUI NE RESPECTE PERSONNE</div>
+    </header>
+
+    <section class="stats">
+      <div><small>NIVEAU</small><strong id="level">1</strong></div>
+      <div><small>CLICS VALIDÉS</small><strong id="score">0 / 5</strong></div>
+      <div><small>RECORD</small><strong id="record">1</strong></div>
+    </section>
+
+    <section class="game">
+      <div class="announcement" id="message">Clique sur le bouton vert. Ça devrait être simple.</div>
+      <div class="arena" id="arena">
+        <button class="target" id="target">CLIQUE-MOI</button>
+      </div>
+      <div class="progress-info"><span>PROGRESSION</span><span id="progressText">0%</span></div>
+      <div class="progress"><div id="progressBar"></div></div>
+      <div class="bottomline">
+        <span id="rule">Règle : clique sur le bouton vert.</span>
+        <span id="annoyance">Niveau de mauvaise foi : 1/∞</span>
+      </div>
+    </section>
+
+    <footer>
+      <p>Il n'y a pas de boss final. Il n'y a même pas de boss normal.</p>
+      <button id="reset">RECOMMENCER (TU ES SÛR ?)</button>
+    </footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
